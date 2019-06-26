@@ -1,0 +1,142 @@
+body {
+    margin: 0 auto;
+    /* background-image: url("../images/light-grey-terrazzo.png") */
+}
+.left {
+    /* background-image: url("../images/light-grey-terrazzo.png") */
+    width: 390px;
+    position: fixed;
+    height: 1200px;
+    background-image: url("../images/light-grey-terrazzo.png")
+}
+.navbar {   
+    /* width: 550px;
+    position: relative;
+    height: 1200px;
+     background-image: url("../images/light-grey-terrazzo.png") */
+
+}
+/* img {
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 115px;
+    
+} */
+
+#nathan {
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 115px;
+    
+}
+h3 {
+    font-size: 21px;
+    position: absolute;
+    top: 253px;
+    width: 390px;
+    text-align: center;
+    color: 	black;
+    letter-spacing: 0.2px;
+    font-family: 'Barlow', sans-serif;
+}
+h2 {
+    font-size: 24px;
+    position: absolute;
+    top: 227px;
+    width: 390px;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    color: 	black;
+    letter-spacing: 0.2px;
+}
+ul {
+    position: absolute;
+    top: 318px;
+    left: 29px;
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16.5px;
+    
+}
+a {
+    text-decoration: none;
+    color: black
+}
+a:hover {
+    color:gray
+}
+li {
+    
+    margin-top: 18px;
+}
+.right {
+    width: 1050px;
+    height: 1200px;
+    position: absolute;
+    left: 390px;
+    padding: 42px;
+    
+}
+.main-title {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 40px;
+    color: 	#404040;
+    letter-spacing: 0.9px;
+}
+#column {
+    float: left;
+    
+
+
+}
+.row:after {
+    /* display: block; */
+content: "";
+display: table;
+clear: both;
+}
+#pengiun, #marvel, #titanum, #gooiki, #ravioli, #train, #trivia{
+    margin-top: 50px;
+}
+#marvel, #gooiki, #ravioli {
+    border: 1px solid gray;
+}
+.border {
+border-bottom: 1px solid gray;
+margin-right: 70px;
+margin-top: 40px;
+}
+
+span {
+    background-color: gainsboro;
+    padding: 8px;  
+}
+span:hover {
+    background-color: gray;
+    text-decoration: underline;
+    margin-top: 3px;
+    color: black;
+}
+.content {
+    min-height: 100%;
+    clear: both;
+    display: flex;
+}
+    .content-inside {
+    padding: 100px;
+    padding-bottom: 30px;
+    clear: both;
+    display: flex;
+}
+#javascript {
+    background-color: yellow;
+    padding: 8px;  
+    color: grey;
+}
+
+#space {
+    line-height: 1.6;
+    
+}
