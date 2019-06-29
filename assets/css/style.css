@@ -97,15 +97,17 @@ content: "";
 display: table;
 clear: both;
 }
-#pengiun, #marvel, #titanum, #gooiki, #ravioli, #train, #trivia{
+#pengiun, #marvel, #titanum, #gooiki, #ravioli, #train, #trivia, #daburger{
     margin-top: 50px;
+    border: 2.2px solid whitesmoke;
+
 }
-#marvel, #gooiki, #ravioli {
-    border: 1px solid gray;
+#marvel, #gooiki, #ravioli, #daburger {
+    /* border: 2.2px solid whitesmoke; */
 }
 .border {
 border-bottom: 1px solid gray;
-margin-right: 70px;
+margin-right: 100px;
 margin-top: 40px;
 }
 
@@ -139,4 +141,91 @@ span:hover {
 #space {
     line-height: 1.6;
     
+}
+
+hr {
+    margin-right: 500px;
+    margin-bottom: 50px;
+    border-color: whitesmoke;
+}
+/* BAR */
+.bar{
+    height: 30px;
+    max-width: 800px;
+    margin: 0 auto 10px auto;
+    line-height: 30px;
+    font-size: 16px;
+    color: white;
+    padding: 0 0 0 10px;
+    position: relative;
+  }
+  .bar::before{
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 30px;
+    top: 0;
+    z-index: -2;
+    background: #ecf0f1;
+  }
+  .bar::after{
+    content: '';
+    background: #6F7285;
+    height: 30px;
+    transition: 0.7s;
+    display: block;
+    width: 100%;
+    -webkit-animation: bar-before 1 1.8s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  /* BAR ANIMNATION  */
+  @-webkit-keyframes bar-before{
+    0%{
+      width: 0px;
+    }
+    100%{
+      width: 100%;
+    }
+  }
+  .graph-cont {
+      margin-right:40px;
+  }
+  /* HTML bar */
+  .bar1::after{
+    max-width: 92%;
+  }
+  /* css bar */
+  .bar2::after{
+      max-width: 89%;
+  }
+  /* bootstrap */
+  .bar3::after{
+      max-width: 84%;
+  }
+  /* javascript */
+  .bar4::after{
+    max-width: 67%;
+}
+/* jquery */
+    .bar5::after{
+    max-width: 77%;
+}
+/* api */
+.bar6::after{
+    max-width: 77%;
+}
+/* node*/
+.bar7::after{
+    max-width: 77%;
+}
+
+.collection {
+    margin-top: 20px;
+}
+p {
+    line-height: 22px;
 }
