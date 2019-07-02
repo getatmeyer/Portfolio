@@ -72,7 +72,7 @@ li {
     margin-top: 18px;
 }
 .right {
-    width: 1050px;
+    width: 800px;
     height: 1200px;
     position: absolute;
     left: 390px;
@@ -87,6 +87,8 @@ li {
 }
 #column {
     float: left;
+    margin-left:10px;
+    line-height: 25px;
     
 
 
@@ -102,8 +104,8 @@ clear: both;
     border: 2.2px solid whitesmoke;
 
 }
-#marvel, #gooiki, #ravioli, #daburger {
-    /* border: 2.2px solid whitesmoke; */
+#marvel, #gooiki, #ravioli, #daburger, #sniffer, #titanium {
+    border: 2.2px solid whitesmoke;
 }
 .border {
 border-bottom: 1px solid gray;
